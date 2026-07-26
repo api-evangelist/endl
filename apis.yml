@@ -1,7 +1,24 @@
 aid: endl
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/endl.png
 name: Endl
-description: Endl is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Endl is a financial-technology company offering "the operating account for borderless
+  businesses." The platform lets consulting firms, agencies, contractors, marketplaces, and importers/exporters
+  collect payments in 9+ currencies, send to 160+ countries, hold balances in USD, EUR, GBP and regulated
+  stablecoins, and spend through physical and virtual Visa corporate cards with spend controls — all from
+  a single dashboard. Endl positions itself against Wise, Payoneer, Revolut, Deel, Mercury and Airwallex,
+  and is backed by 500 Global. No public developer API, documentation, or SDK surface is currently
+  advertised; the product is dashboard-first.
 url: https://raw.githubusercontent.com/api-evangelist/endl/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Fintech
+- Payments
+- Cross-Border Payments
+- Treasury
+- Banking
+- Cards
+- Stablecoins
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,24 @@ maintainers:
 common:
 - type: Website
   url: https://endl.io
+- type: Blog
+  url: https://endl.io/blogs/
+- type: Support
+  url: https://endl.io/contact
+- type: Login
+  url: https://app.endl.io
+- type: TermsOfService
+  url: https://endl.io/legal/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://endl.io/legal/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/endl-network/
+- type: X
+  url: https://x.com/endl_io
+- type: DomainSecurity
+  url: security/endl-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
